@@ -68,6 +68,7 @@ ol li {
   width: 980px;
   margin: 0 auto;
   position: relative;
+  z-index: 2;
 }
 .wrapper-content.location{
   margin: 0 auto 50px auto;
