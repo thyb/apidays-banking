@@ -1146,3 +1146,8 @@ and (max-device-width : 568px) {
   height:auto;
   opacity: 0.6;
 }
+
+.speaker-thumb{
+  width:156px;
+  height:156px;
+}
