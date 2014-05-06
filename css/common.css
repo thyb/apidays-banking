@@ -383,11 +383,11 @@ h3 {
 }
 
 .bubule.w1 {
-  width: 211px;
+  width: 286px;
 }
 
 .bubule.w2 {
-  width: 431px;
+  width: 576px;
 }
 
 .bubule.w4 {
@@ -400,6 +400,15 @@ h3 {
 
 .bubule.m45 {
   height: 185px;
+}
+.bubule.m60 {
+  height: 250px;
+}
+.bubule.m50 {
+  height: 215px;
+}
+.bubule.m10 {
+  height: 50px;
 }
 
 .bubule.m40 {
@@ -470,6 +479,11 @@ h3 {
 #program table .bubule.pause {
   background-color: rgb(60, 162, 192) !important;
   color: white !important;
+}
+
+#program table .bubule.announcement {
+  background-color: rgb(238, 238, 238) !important;
+  color: black !important;
 }
 
 #program table th:not(.first) {
@@ -627,8 +641,7 @@ h3 {
 }
 #speakers ul {
   margin: 60px auto 40px auto;
-  display: block;
-  width: 400px;
+
 }
 #speakers ul:before,
 #speakers ul:after {
@@ -648,6 +661,7 @@ h3 {
   margin: 0 auto;
   display: block;
   border: 3px solid #3ca2c0;
+  width: 156px;
 }
 #speakers ul li a {
   text-decoration: none;
