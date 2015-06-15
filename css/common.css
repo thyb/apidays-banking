@@ -329,7 +329,7 @@ h3 {
   background-color: rgb(60, 162, 192);
 }
 #program .content{
-  width: 345px;
+  width: 100%;
   margin: 50px auto;
   text-align: center;
   color: white;
