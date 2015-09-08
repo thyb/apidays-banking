@@ -346,8 +346,11 @@ h3 {
   background-position: center -218px;
 }
 
+#program table {
+	margin-top: 40px;
+}
 #program table th, #program table td {
-  font-size: 2.0em;
+  font-size: 0.9em;
   padding: 4px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -390,18 +393,34 @@ h3 {
   -moz-border-radius: 5px;
   padding: 5px 10px;
   opacity: 0.9;
+	text-align: center;
 }
 
-#program table .bubule strong {
-  display: block;
+#program table .bubule .bubule-content {
+	vertical-align:middle;
+	display:inline-block;
 }
 
 .bubule.w1 {
-  width: 286px;
+  width: 212px;
+}
+.bubule.w1 .bubule-content strong {
+	font-size: 1.2em
+}
+.bubule.w1 .bubule-content {
+	font-size: 0.70em
 }
 
+.bubule.w2 .bubule-content strong {
+	font-size: 1.1em
+}
+.bubule.w2 .bubule-content {
+	font-size: 0.90em
+}
+
+
 .bubule.w2 {
-  width: 576px;
+  width: 431px;
 }
 
 .bubule.w4 {
@@ -410,51 +429,86 @@ h3 {
 
 .bubule.m35 {
   height: 117px;
+	line-height:117px;
+}
+
+.bubule.m125 {
+	height: 535px;
+	line-height:535px;
 }
 
 .bubule.m45 {
   height: 185px;
+	line-height:185px;
+}
+.bubule.m45b {
+  height: 180px;
+	line-height:180px;
+}
+.bubule.m75 {
+  height: 302px;
+	line-height:302px;
 }
 .bubule.m60 {
   height: 250px;
+	line-height:250px;
 }
 .bubule.m50 {
   height: 215px;
+	line-height:215px;
+}
+.bubule.m50b {
+  height: 205px;
+	line-height:205px;
 }
 .bubule.m10 {
   height: 50px;
+	line-height:50px;
 }
 
 .bubule.m40 {
   height: 165px;
+	line-height:165px;
 }
 
 .bubule.m30 {
   height: 120px;
+	line-height:120px;
 }
 
 .bubule.m30b {
   height: 125px;
+	line-height:125px;
 }
 
 .bubule.m25 {
   height: 105px;
+	line-height:105px;
 }
 
 .bubule.m25b {
   height: 100px;
+	line-height:100px;
 }
 
 .bubule.m20 {
   height: 80px;
+	line-height:80px;
 }
 
 .bubule.m20b {
   height: 75px;
+	line-height:75px;
+}
+
+.bubule.m15 {
+  height: 70px;
+	line-height:70px;
 }
 
 .bubule.m10 {
-  height: 40px;
+  height: 60px;
+	line-height:60px;
 }
 
 .bubule.r5 {
@@ -467,6 +521,10 @@ h3 {
 
 .bubule.r10 {
   margin-top: 40px;
+}
+
+.bubule.r10b {
+	margin-top: 45px;
 }
 .bubule.r15 {
   margin-top: 60px;
@@ -544,7 +602,7 @@ h3 {
 #program .double-cols ul li .hours {
   font-size: 40px;
   font-family: 'misolight', Arial;
-  text-transform: uppercase;    
+  text-transform: uppercase;
  margin-top: 15px;
 }
 #program .double-cols ul li .activity {
@@ -1036,8 +1094,8 @@ h3 {
   font-family: Arial;
 }
 
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1)  {
 
@@ -1051,9 +1109,9 @@ and (-webkit-min-device-pixel-ratio: 1)  {
 
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
 
 	#nav .wrapper-content ul li a {
 	  color: #3ca2c0;
