@@ -401,6 +401,10 @@ h3 {
 	display:inline-block;
 }
 
+.bubule.green {
+	background-color: #E4F1C3 !important;
+}
+
 .bubule.w1 {
   width: 212px;
 }
