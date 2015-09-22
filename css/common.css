@@ -475,6 +475,11 @@ h3 {
 	line-height:165px;
 }
 
+.bubule.m40b {
+  height: 155px;
+	line-height:155px;
+}
+
 .bubule.m30 {
   height: 120px;
 	line-height:120px;
@@ -500,11 +505,20 @@ h3 {
 	line-height:80px;
 }
 
+.bubule.m20c {
+	height: 90px;
+	line-height: 90px;
+}
+
 .bubule.m20b {
   height: 75px;
 	line-height:75px;
 }
 
+.bubule.m15b {
+  height: 60px;
+	line-height:60px;
+}
 .bubule.m15 {
   height: 70px;
 	line-height:70px;
